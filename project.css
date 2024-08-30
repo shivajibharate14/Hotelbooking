@@ -1,0 +1,111 @@
+ul li  {
+      padding: 10px 20px;
+    
+}
+
+.footer ul li  a {
+   
+    text-decoration: none;
+    color: white;
+}
+
+ul li{
+
+    list-style-type: none;
+}
+
+.heighth{
+    height: 10px;
+}
+
+
+.shadow{
+    box-shadow: 1px 2px 5px 5px rgb(202, 201, 201);
+}
+.booknow{
+    box-shadow: 1px 2px 5px 5px rgb(230, 88, 88);
+   padding: 5px;
+}
+
+
+.icon li  {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    float: right;
+    
+}
+.icon{
+    margin-top: -7px;
+}
+.header{
+    height: 30px;
+}
+.hc{
+    height:550px;
+}
+
+.ashadow{
+    
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 5px red;
+}
+.ashadowh {
+    text-shadow: 2px 2px 5px red;
+}
+
+body{
+    background-color: rgb(240, 238, 238);
+}
+
+
+.about1{
+    height: 350px;
+    width: 100%;
+}
+
+
+
+.ser{
+    height: 250px; 
+
+  
+}
+
+
+
+.port{
+    height: 300px;
+    width: 100%;
+}
+
+.about2{
+    height: 150px;
+    width: 100%;
+}
+.about3{
+
+    height: 300px;
+    width: 100%;
+}
+
+.font{
+    font-size:40px;
+    
+}
+.fontt{
+    font-size: large;
+    justify-content: center;
+}
+.g-2{
+    border-radius: 40%;
+}
+
+
+.add{
+    font-size: x-large;
+}
+
+.coment{
+    height: 100px;
+}

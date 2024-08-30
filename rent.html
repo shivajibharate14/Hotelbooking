@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent Property</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="project.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <div class="fixed-top">
+    <section class="bg-primary header">
+      <div class="container text-light">
+        <div class="row ">
+
+          <div class="col-md-6">
+
+            <span>
+              <i class="far fa-comment-dots text-grey"> </i>
+              info@example.com
+              <i class="fas fa-phone  text-grey"> </i>
+              +15 6617189996
+            </span>
+          </div>
+          <div class="col-md-6">
+
+            <ul class="icon">
+              <li> <i class="fa-brands fa-twitter"></i></li>
+              <li> <i class="fa-brands fa-facebook"></i></li>
+              <li> <i class="fa-brands fa-instagram"></i></li>
+              <li> <i class="fa-brands fa-linkedin"></i></li>
+            </ul>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow ">
+      <div class="container-fluid   ">
+        <div class="container col-md-6">
+
+
+
+          <a class="navbar-brand  " href="#" style="font-size: 30px;">Hotel<b class="text-danger">B</b>ooking</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse end " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active  pl-500 " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="best_agent.html">Best Agent</a></li>
+                <li><a class="dropdown-item" href="selling.html">Selling Property</a></li>
+
+                <li><a class="dropdown-item" href="rent.html">Rent Property</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="portpolio.html">Portpolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-danger booknow" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                BookNow
+              </button>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="model-title ">Book Your Dream Hotel</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  
+      </div>
+        <div class="modal-body">
+          <form>
+              <div class="mb-3">
+                  <label class="form-label">Name</label>
+                  <input type="text" class="form-control"
+                      placeholder="Enter name">
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Phone</label>
+                  <input type="text" class="form-control"
+                      placeholder="Enter number">
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control"
+                      placeholder="Enter Email">
+              </div>
+              
+  
+              <div class="row">
+                  <div class="col-md-6 my-4">
+                      <label class="form-label">Property status</label>
+                      <select class="form-select"
+                          aria-label="Default select example">
+                          <option>For rent</option>
+                          <option>For sale</option>
+                      </select>
+                  </div>
+              </div>
+  
+              <div class="row">
+  
+                  <div class="col-md-6">
+                      <label class="form-label">location</label>
+                      <select class="form-select"
+                          aria-label="Default select example">
+                          <option>For rent</option>
+                          <option>For sale</option>
+                      </select>
+                  </div>
+                  <div class="col-md-6">
+                      <label class="form-label">Appartment</label>
+                      <select class="form-select"
+                          aria-label="Default select example">
+                          <option>For rent</option>
+                          <option>For sale</option>
+                      </select>
+                  </div>
+  
+              </div>
+           </form>
+  
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <br><br><br>
+  <div class="container-fluid mt-5 ">
+    <div class=" mt-5">
+      <h1 class="text-center my-3 text-grey ashadow  about">Rent Property</h1>
+
+      <p class="text-center">Lorem ipsum dolor sit amet consectetur,adipisicing elit. Velit, iste soluta
+        reprehenderit <br> eos quas inventore esse adipisci aspernatur et doloremque.<br> Cupiditate facilis aliquam aut
+        fugit
+        dolor
+      </p>
+    </div>
+
+    <hr>
+  </div>
+
+
+  <div class="container-fluid pb-4 ">
+    <div class="row g-5 ">
+      <div class="col-md-4">
+
+        <div class="card" >
+            <img src="ap1.jpg" class="card-img-top  port" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">$1000</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi autem voluptatem exercitationem consequuntur molestiae quisquam!</p>
+             </div>
+           
+           
+          </div>
+
+      </div>
+      <div class="col-md-4">
+        
+        <div class="card" >
+            <img src="ap2.jpg" class="card-img-top  port" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">$1000</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi autem voluptatem exercitationem consequuntur molestiae quisquam!</p>
+             </div>
+           
+           
+          </div>
+      </div>
+      <div class="col-md-4">
+        
+
+        <div class="card" >
+            <img src="ap3.jpg" class="card-img-top  port" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">$1000</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi autem voluptatem exercitationem consequuntur molestiae quisquam!</p>
+             </div>
+       
+           
+          </div>
+      </div>
+
+      
+        <div class="col-md-4 ">
+
+       
+
+          <div class="card" >
+            <img src="ap4.jpg" class="card-img-top  port" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">$1000</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi autem voluptatem exercitationem consequuntur molestiae quisquam!</p>
+             </div>
+           
+           
+          </div>
+        </div>
+        <div class="col-md-4">
+          
+          <div class="card" >
+            <img src="ap5.jpg" class="card-img-top  port" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">$1000</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi autem voluptatem exercitationem consequuntur molestiae quisquam!</p>
+             </div>
+            
+           
+          </div>
+        </div>
+        <div class="col-md-4">
+          
+          <div class="card" >
+            <img src="ap6.jpg" class="card-img-top  port" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">$1000</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi autem voluptatem exercitationem consequuntur molestiae quisquam!</p>
+             </div>
+           
+           
+          </div>
+        </div>
+
+   
+
+   </div>
+  </div>
+
+
+
+
+
+
+  <footer class="bg-dark text-light footer d-flex  ">
+
+    <div class="container  footer mb-0 ">
+      <div class=" row ">
+
+
+
+        <div class="col-lg-3    col-md-6">
+          <h3 class="my-4">
+            <span>
+              Hotel<b class="text-danger">B</b>ooking
+            </span>
+          </h3>
+          <p>
+            A108 Adam street
+            <br>
+            New York,Ny
+            <br>
+            525022
+            <br>
+            United States
+          </p>
+
+
+        </div>
+
+        <div class="col-lg-3  col-md-6">
+          <h4 class="my-4">Useful link</h4>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="index.html">Services</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+
+          </ul>
+
+
+        </div>
+
+        <div class="col-lg-3  col-md-6">
+
+          <h4 class="my-4 ">Our Services</h4>
+          <ul>
+            <li>
+              <a href="best_agent.html">Best Agent</a>
+            </li>
+            <li>
+              <a href="selling.html">Selling Property</a>
+            </li>
+            <li>
+              <a href="rent.html">Rent Property</a>
+            </li>
+
+
+          </ul>
+        </div>
+
+        <div class="col-lg-3  col-md-6 icon ">
+
+          <h4 class="my-4"> Our Socialnetwork</h4>
+          <p>We are providing the best resources and the services </p>
+          <span>
+            <ul>
+              <li> <i class="fa-brands fa-twitter bg-primary "></i></li>
+              <li> <i class="fa-brands fa-facebook   bg-primary "></i></li>
+              <li> <i class="fa-brands fa-instagram  bg-primary "></i></li>
+              <li> <i class="fa-brands fa-linkedin  bg-primary "></i></li>
+            </ul>
+
+          </span>
+        </div>
+
+        <hr>
+        <div class="row col-md-4">
+
+        </div>
+        <div class="col-md-4">
+          <i class="fa-solid fa-copyright "></i>
+          copyright<b class="text-info">Hotel<b class="text-danger">B</b>ooking</b>.All rights are reserved.
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
